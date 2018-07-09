@@ -1,0 +1,177 @@
+
+/* Colors */
+
+/*
+
+    li #50514f
+    li highlight #eaeaea
+    li border #5c6361
+
+*/
+
+/* Circle Menu Button menu.css */
+#roundMenu{
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
+    border: 2px solid #eaeaea;
+}
+
+#undomenu, #redomenu {
+    background-color: #eaeaea;
+    color:black;
+    opacity: 0;
+}
+
+/* MainMenu toolpanel.css */
+.toolPanel ul {
+    background-color: transparent;
+}
+.toolPanel li {
+    background-color: #50514f;
+}
+.toolPanel li:after {
+    color: white;
+    border-left:1px solid #eaeaea;
+}
+.toolPanel li:before{
+    background-color: #5c6361;
+}
+#clearDiv button {
+    color: white;
+}
+.yesClear {
+    left:200px;
+    background-color:#50514f!important;
+}
+.noClear {
+    left:260px;
+    background-color:#50514f!important;
+}
+
+
+/* Item Selection Menu menu.css */
+#elPanel {
+    background-color: transparent;
+}
+#accordion li div {
+    background-color: #50514f;
+    border-bottom: 1px solid #5c6361;
+}
+#accordion>li>ul>li>div {
+    background-color: #202020;
+    color: #fff;
+}
+#accordion ul li {
+    background-color: #343434;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.accordionInner {
+    color: white;
+}
+#elPanelDragger, #elPanelCloser {
+    background-color: #eaeaea;
+    color:black;
+}
+.liSelected {
+    background-color: #eaeaea!important;
+    color:black;
+}
+
+
+/* Item Adjustment Menu menu.css */
+#bottomMenu{
+    background-color: transparent;
+}
+.bottomMenuLI {
+    background-color: #50514f;
+    border-bottom: 1px solid #5c6361;
+}
+#editDragger {
+    color:black;
+    background-color: #eaeaea;
+}
+#customPrefixInput{
+    background-color: #eaeaea;
+    border: 0px solid transparent;
+}
+#customSuffixInput{
+    background-color: #eaeaea;
+    border: 0px solid transparent;
+}
+
+/* sliders */
+.range-bar {
+    background-color: #a9acb1;
+}
+.range-handle {
+    background-color: #eaeaea;
+}
+.range-quantity {
+    background-color: #eaeaea;
+}
+
+.incs, .decs {
+    color:black;
+    background-color: #eaeaea;
+    border: 2px solid #eaeaea;
+    text-shadow: 0 1px 2px white;
+}
+.decs:before{
+    background-color: #eaeaea;
+}
+
+.manualInput {
+    background-color: #eaeaea;
+    text-shadow: 0 1px 2px white;
+}
+
+.topLabel, .leftLabel{
+    color:white;
+}
+
+.openButtons{
+    background-color: #eaeaea;
+    color: black;
+    text-shadow: 0 1px 2px white;
+}
+
+.borderButton{
+    background-color: #eaeaea;
+}
+
+.triContain div {
+    background-color: #eaeaea;
+    color: black;
+}
+
+/* shadow menu */
+#externalMenu {
+    background-color: #50514f;
+}
+.exColorButton {
+    background-color: #eaeaea;
+}
+.exInc, .exDec {
+    background-color: #eaeaea;
+    color:black;
+}
+.exInput {
+    background-color: #eaeaea;
+}
+#userFontHolder{
+    background-color: #eaeaea;
+}
+#closeFontList{
+    background-color: #eaeaea;
+}
+.customCSSInput{
+    background-color:#eaeaea;
+}
+.sp-container button {
+    background-color: #eaeaea;
+    color: #50514f;
+}
+.sp-container button:hover {
+    background-color: #eaeaea;
+}
+

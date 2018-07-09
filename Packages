@@ -1,0 +1,13 @@
+Package: com.xdew.lockpluspro
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: xDew <test@gmail.com>
+Filename: /lockpluspro.deb
+Size: 15271600
+MD5sum: 197ef851b4f1dc36647c2843e6a017ff
+SHA1: e5267eb8300e94cfd4ec40a98a51c0f02b29d2a8
+SHA256: b5c5a3601944227558b834957d415ec57b8922a88a8c5bf784134d0e3361f511
+Section: Tweaks
+Description: A test tweak
+Author: N/A <test@gmail.com>
+Name: LockPlus X
