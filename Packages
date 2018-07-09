@@ -1,13 +1,14 @@
 Package: com.xdew.quartz
-Version: 0.0.1-A
-Architecture: iphoneos-arm
-Maintainer: xDew <test@gmail.com>
-Filename: /lockpluspro.deb
-Size: 15271600
-MD5sum: 197ef851b4f1dc36647c2843e6a017ff
-SHA1: e5267eb8300e94cfd4ec40a98a51c0f02b29d2a8
-SHA256: b5c5a3601944227558b834957d415ec57b8922a88a8c5bf784134d0e3361f511
-Section: Tweaks
-Description: A Modern Look For IOS 11.2 - 11.3.1
-Author: xDew Team <test@gmail.com>
 Name: Quartz
+Version: 0.0.1-A
+Size: 15271600
+Architecture: iphoneos-arm
+Description: A modern look for IOS 11.2 - 11.3.1
+Maintainer: xDew Team <email@provider.com>
+Author: xDew Team <email@provider.com>
+Section: Tweaks
+MD5sum: 197ef851b4f1dc36647c2843e6a017ff
+SHA1sum: e5267eb8300e94cfd4ec40a98a51c0f02b29d2a8
+SHA256sum: b5c5a3601944227558b834957d415ec57b8922a88a8c5bf784134d0e3361f511
+Filename: debs//lockpluspro.deb
+
