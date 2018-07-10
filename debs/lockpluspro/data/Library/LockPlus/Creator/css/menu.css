@@ -1,0 +1,509 @@
+html {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+#roundMenu {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 999px;
+    border: 2px solid white;
+    bottom: 90px;
+    right: -25px;
+    border: 2px solid black;
+    background-clip: content-box;
+    padding: 2px;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
+}
+#redoMenu {
+    position: absolute;
+    width: 45px;
+    text-align: center;
+    border-radius: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 20px;
+    left: 0px;
+    font-size: 12px;
+    line-height: 20px;
+    background-clip: content-box;
+    padding: 2px;
+    color:white;
+}
+#undoMenu {
+    position: absolute;
+    width: 45px;
+    text-align: center;
+    border-radius: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 20px;
+    right: 0px;
+    font-size: 12px;
+    line-height: 20px;
+    background-clip: content-box;
+    padding: 2px;
+    color:white;
+}
+
+/*#bottomMenu::-webkit-scrollbar-track {
+    background-color: transparent;
+}*/
+#bottomMenu{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /*-webkit-backdrop-filter: blur(5px);*/
+    z-index: 9;
+    -webkit-overflow-scrolling: touch;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.6);
+}
+#bottomMenu::-webkit-scrollbar-thumb {
+    /* background-color: transparent;
+    -webkit-background-clip: padding-box;*/
+    border-radius: 0px!important;
+    background-color: black;
+}
+#bottomMenu::-webkit-scrollbar {
+    width: 0px;
+    margin-left: 0px;
+    border-radius: 0px!important;
+    background-color: black;
+}
+#bottomMenuUL {
+    position: absolute;
+    list-style: none;
+    padding:0;
+    margin:0;
+    left: 0px;
+    width: 100%;
+}
+.bottomMenuLI {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    color: white;
+    list-style-type: none;
+    height: 90px;
+    background-color: #101010;
+    display: inline-block;
+    font-size: 20px;
+    overflow: hidden;
+    z-index: 999;
+    border-bottom: 1px solid white;
+}
+#elPanelDragger {
+    position: absolute;
+    color: white;
+    left: 5px;
+    margin-top:9px;
+    bottom: 130px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    /*padding: 10px;*/
+    padding-left: 20px;
+    padding-right:20px;
+    display: none;
+    border-radius: 20px;
+    height: 20px;
+    font-size: 13px;
+    height: 22px;
+    line-height: 22px;
+}
+#elPanelCloser {
+    position: fixed;
+    margin-top:10px;
+    color: white;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    /*padding: 10px;*/
+    height: 22px;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.liSelected {
+    background-color: #101010!important;
+}
+#bottomMenu::-webkit-scrollbar {
+    width: 0px;
+    margin-left: 0px;
+    border-radius: 0px!important;
+    background-color: black!important;
+}
+.liText {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    color: white;
+    text-transform: capitalize;
+    width: 200px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.slider-wrapper {
+    width: 100px!important;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.incs, .decs {
+    position: absolute;
+    text-shadow: 0 1px 2px white;
+    width: 30px;
+    height: 30px;
+    margin-top:-3px;
+    background-color: #fff;
+    border-radius: 999px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Times;
+    color: black;
+    padding: 1px;
+    border: 2px solid #fff;
+    background-clip: content-box;
+    z-index: 99;
+}
+.incs {
+    right: -13px;
+}
+.decs {
+    left: -13px;
+}
+/*.decs:before{
+    position: absolute;
+    content: " ";
+    width:48px;
+    height: 12px;
+    background-color:white;
+    margin-top: 9px;
+    margin-left: 20px;
+    z-index: -1;
+}*/
+#bottomMenuUL li {}
+.inputContainer {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 90.5px;
+    height: 60px;
+}
+.inputContainer2 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 90.5px;
+    height: 60px;
+}
+@media only screen and (max-device-width: 375px) {
+    .slider-wrapper {
+        right: 155px;
+    }
+    .inputContainer {
+        right: 40px;
+    }
+    .inputContainer2 {
+        right: 150px;
+    }
+}
+.manualInput {
+    position: absolute;
+    top: 8px;
+    left: 29px;
+    height: 14.4px;
+    line-height: 14.4px;
+    width: 32px;
+    font-size: 10px!important;
+    text-align: center;
+    border: 0px solid transparent;
+    background-color: white;
+    border-radius: 2px;
+    text-shadow: 0 1px 2px white;
+    z-index: 999;
+}
+#customPrefixInput{
+    background-color: red;
+    border: 0px solid transparent;
+}
+#customSuffixInput{
+    background-color: red;
+    border: 0px solid transparent;
+}
+.inButton {
+    position: absolute;
+}
+.topLabel {
+    position: absolute;
+    top: -14px;
+    right: 32px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #a9acb1;
+}
+.leftLabel {
+    top: -14px;
+    right: 29px;
+    position: absolute;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #a9acb1;
+}
+.openButtons {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    width: 150px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    text-shadow: 0 1px 2px white;
+    border-radius: 2px;
+}
+.borderButton {
+    position: absolute;
+    top: 40px;
+    right:10px;
+    width: 60px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    text-shadow: 0 1px 2px white;
+    text-align: center;
+}
+.triContain {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    top: 40px;
+    white-space: nowrap;
+    margin:2px;
+    text-align: center;
+}
+.triContain div {
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 2px;
+    margin:2px;
+}
+#editDragger {
+    position: absolute;
+    color: black;
+    margin-top: 4px;
+    right: 1px;
+    bottom: 179px;
+    line-height: 20px;
+    background-color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    display: none;
+    z-index: 10;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff!important;
+}
+#elPanel::-webkit-scrollbar-track {
+    display: none;
+}
+#elPanel::-webkit-scrollbar-thumb {
+    display: none;
+}
+#elPanel::-webkit-scrollbar {
+    display: none;
+}
+#elPanel {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 161px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    overflow: scroll;
+    display: none;
+    -webkit-overflow-scrolling: touch;
+    /*border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;*/
+}
+#accordion {
+    position: relative;
+    top: -15px;
+    list-style: none;
+    padding: 0 0 0 0;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 0 1px 2px black;
+}
+#accordion div {
+    display: block;
+    padding: 10 5 10 5px;
+    list-style: circle;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*First layer*/
+#accordion li div {
+    background-color: #101010;
+    /*	border-bottom: 1px solid black; */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/*Second Layer*/
+#accordion>li>ul>li>div {
+    background-color: #202020;
+    color: #fff;
+    font-style: italic;
+}
+
+/* Third Layer */
+
+#accordion ul li {
+    background-color: #343434;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+#accordion ul {
+    list-style: none;
+    padding: 0 0 0 0;
+}
+#accordion ul {
+    display: none;
+}
+.accordionInner {
+    color: white;
+}
+.accordionInner ul li {
+    margin: 1px;
+    padding: 5 5 5 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#externalMenu {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.exInput0, .exInput1, .exInput2 {
+    position: absolute;
+    top: 23px;
+    width: 80px;
+    height: 60px;
+}
+.exInput0 {
+    left: 20px;
+}
+.exInput1 {
+    left: 110px;
+}
+.exInput2 {
+    left: 200px;
+}
+.exTopLabel {
+    color: white;
+    margin-top: -20px;
+    width: 80px;
+    text-align: center;
+}
+.exColorButton {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+.exInc, .exDec {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 999px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Times;
+    color: red;
+}
+.exInc {
+    right: 0;
+}
+.exDec {
+    left: 0;
+}
+.exInput {
+    position: absolute;
+    top: 0;
+    margin-top:5px;
+    left: 24px;
+    width: 30px;
+    text-align: center;
+    border: 0px solid transparent;
+    border-radius: 2px;
+}
+.customCSSInput{
+    width:100%;
+    position:absolute;
+    top:0px;
+    display:block;
+    padding:15px 5px;
+    padding-top:0;
+    font-size:10px;
+}
+@media only screen and (max-device-width: 375px) {
+    .exInput0 {
+        left: 5px;
+    }
+    .exInput1 {
+        left: 95px;
+    }
+    .exInput2 {
+        left: 185px;
+    }
+    .exColorButton {
+        right: 5px;
+    }
+}
+@media only screen and (max-device-width: 320px) {
+    .exInput0, .exInput1, .exInput2 {
+        -webkit-transform:scale(0.8);
+    }
+    .exInput1{
+        left:75px;
+    }
+    .exInput2{
+        left:145px;
+    }
+    .exColorButton {
+        margin-top: 7px;
+        width: 90px;
+        right: 5px;
+    }
+}

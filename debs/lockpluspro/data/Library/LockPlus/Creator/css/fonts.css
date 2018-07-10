@@ -1,0 +1,58 @@
+#userFontHolder{
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    z-index: 99;
+    width: 70%;
+    height: 50%;
+    overflow: scroll;
+    -webkit-box-shadow: 0 0 200px rgba(0, 0, 0, 0.8);
+}
+#userAddedFontsCloser{
+    position: absolute;
+    top:5px;
+    right:5px;
+    width: 20px;
+    height: 20px;
+    background-color: #343434;
+    color:white;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+#userFontHolder li{
+    list-style-type: none;
+    text-align: center;
+    background-color: #343434;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color:white;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    text-transform: capitalize;
+}
+#userFontHolder li:first-child{
+    padding-bottom:20px;
+    background-color: transparent;
+}
+#fontInstructions{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+#userFontHolder::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+#userFontHolder::-webkit-scrollbar-thumb {
+    background-color: #21b9b0;
+    -webkit-background-clip: padding-box;
+    border-radius: 5px;
+}
+#userFontHolder::-webkit-scrollbar {
+    width: 0px;
+    margin-left: 0px;
+}
