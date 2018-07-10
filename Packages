@@ -1,16 +1,15 @@
 Package: com.xdew.quartz
-Name: Quartz
+Name: Glacier
 Version: 0.0.1-A
 Icon: Development.png
 Size: 15271600
 Architecture: iphoneos-arm
 Description: A modern look for IOS 11.2 - 11.3.1
-Maintainer: xDew Team <email@provider.com>
 Author: xDew Team <email@provider.com>
 Section: Tweaks
-MD5sum: 197ef851b4f1dc36647c2843e6a017ff
-SHA1sum: e5267eb8300e94cfd4ec40a98a51c0f02b29d2a8
-SHA256sum: b5c5a3601944227558b834957d415ec57b8922a88a8c5bf784134d0e3361f511
-Filename: debs//lockpluspro.deb
+MD5sum: 22d83bf4d93579a9a8e2237420709c0a
+SHA1sum: 3e8f1b35accd22a150851600d71917736cf8980e
+SHA256sum: 1a68bc4500d0321926cf2825bdc1dd46aa19fca12131ec0397fc41d9ca12d155
+Filename: debs//glacier.deb
 Depiction: http://xdew.github.io/depic/default.html
-Icon: /Development.png
+Icon: Development.png
