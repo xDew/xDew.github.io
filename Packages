@@ -1,11 +1,10 @@
-Package: com.xdew.quartz
-Name: Glacier
+Package: com.xdew.blurry
+Name: Blurry
 Version: 0.0.1-A
 Icon: Development.png
 Size: 15271600
 Architecture: iphoneos-arm
 Description: A modern look for IOS 11.2 - 11.3.1
-Author: xDew Team <email@provider.com>
 Section: Tweaks
 MD5sum: 22d83bf4d93579a9a8e2237420709c0a
 SHA1sum: 3e8f1b35accd22a150851600d71917736cf8980e
