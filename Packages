@@ -6,5 +6,6 @@ Description: Make IOS Uniquely Stunning.
 Depiction: http://xdew.github.io/depic/default.html
 Author: ilAaron
 Section: Tweaks
-Depends: firmware(>=11.3)
-Icon: file:///Development.png
+Filename: /debs/com.xdew.IceBox.deb
+Depends: firmware(>=11.2)
+Icon: Development.png
