@@ -1,11 +1,13 @@
-Package: com.xdew.blurry
+Package: com.xdew.IceBox
 Name: IceBox
 Version: 1.0 A
 Architecture: iphoneos-arm
 Description: Make IOS Uniquely Stunning.
 Depiction: http://xdew.github.io/depic/default.html
 Author: ilAaron
+Size: 97434
+MD5sum: 1cfbab2d94fb70451324f419f11f39fc
 Section: Tweaks
-Filename: /debs/com.xdew.IceBox.deb
+Filename: //debs/com.xdew.IceBox.deb
 Depends: firmware(>=11.2)
-Icon: Development.png
+Icon: //Development.png
