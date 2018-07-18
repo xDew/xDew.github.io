@@ -1,9 +1,10 @@
 Package: com.xdew.blurry
-Name: Blurry
-Version: 0.0.1
+Name: IceBox
+Version: 1.0 A
 Architecture: iphoneos-arm
-Description: A modern look for IOS 11.2 - 11.3.1
+Description: Make IOS Uniquely Stunning.
 Depiction: http://xdew.github.io/depic/default.html
 Author: ilAaron
 Section: Tweaks
-Filename: debs//glacier.deb
+Depends: firmware(>=11.3)
+Icon: file:///Development.png
