@@ -5,8 +5,8 @@ Architecture: iphoneos-arm
 Description: Make IOS Uniquely Stunning.
 Depiction: http://xdew.github.io/depic/default.html
 Author: ilAaron
-Size: 97434
-MD5sum: 1cfbab2d94fb70451324f419f11f39fc
+Size: 1634
+MD5sum: 37809629eae834241e6a4b69b5d4c88a
 Section: Tweaks
 Filename: //debs/com.xdew.IceBox.deb
 Depends: firmware(>=11.2)
