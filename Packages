@@ -1,12 +1,12 @@
 Package: com.xdew.IceBox
 Name: IceBox
-Version: 1.0 A
+Version: 0.1 A
 Architecture: iphoneos-arm
 Description: Make IOS Uniquely Stunning.
 Depiction: http://xdew.github.io/depic/default.html
 Author: ilAaron
-Size: 1634
-MD5sum: 37809629eae834241e6a4b69b5d4c88a
+Size: 1660
+MD5sum: 5adfa3a9df9716791b3ca84377415a11
 Section: Tweaks
 Filename: //debs/com.xdew.IceBox.deb
 Depends: firmware(>=11.2)
