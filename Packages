@@ -1,13 +1,11 @@
-Package: com.xdew.IceBox
-Name: IceBox
-Version: 0.1 A
+Package: com.xdew.Clarity
+Name: Clarity
+Version: 0.1
 Architecture: iphoneos-arm
 Description: Make IOS Uniquely Stunning.
-Depiction: http://xdew.github.io/depic/default.html
+Depiction: http://xdew.github.io/depic/clarity/depic.html
 Author: ilAaron
 Size: 1660
 MD5sum: 5adfa3a9df9716791b3ca84377415a11
 Section: Tweaks
-Filename: //debs/com.xdew.IceBox.deb
-Depends: firmware(>=11.2)
-Icon: //Development.png
+Filename: //debs/com.xdew.Clarity.deb
